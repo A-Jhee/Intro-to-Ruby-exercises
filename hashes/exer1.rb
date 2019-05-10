@@ -10,3 +10,11 @@ immediate_family[:brothers].each { |n| arr << n }
 # can also replace above two lines with 
 # -- arr = immediate_family.values.flatten
 p arr
+
+
+def test(b)
+  b.map! {|letter| "I like the letter: #{letter}"}
+end
+
+a = ['a', 'b', 'c']
+test(a)
